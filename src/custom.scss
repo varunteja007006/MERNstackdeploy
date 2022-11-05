@@ -1,0 +1,12 @@
+/* make the customizations */
+$theme-colors: (
+        "info": rgb(34, 215, 247),
+        "danger": rgb(221, 16, 16),
+        "success": rgb(39, 230, 39),
+        "submitbtn": green,
+        "signupbtn": green,
+        "loginbtn": green,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap";

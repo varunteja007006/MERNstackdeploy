@@ -1,0 +1,40 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+body{
+  background-color: rgba(190, 190, 190, 0.5);
+}
+
+.header {
+  text-align: center;
+}
+
+.navbar-theme-btn{
+  background-color: white;
+  color: black;
+}
+
+.navbar-theme-btn{
+  background-color: white;
+  color: black;
+}
+
+.brandname{
+  cursor: pointer;
+}
+
+form{
+  background-color: white;
+  border-radius: 0.5rem;
+
+  .text-center{
+    text-align: center;
+  }
+
+  .error{
+    border: 0.2rem solid red;
+  }
+
+  .text-muted{
+    color: red;
+  }
+}
