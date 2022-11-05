@@ -17,7 +17,7 @@ function Home() {
   useEffect(() => {
     const fetchWorkouts = async () => {
       const response = await fetch(
-        `https://mernstack-react.herokuapp.com/api/workouts`,
+        `/api/workouts`,
         {
           headers: {
             Authorization: `Brearer ${user.token}`,
