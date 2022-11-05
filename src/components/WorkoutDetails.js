@@ -16,12 +16,15 @@ function WorkoutDetails({ workout }) {
           return;
     }
     
-    const response = await fetch(`/api/workouts/` + workout._id, {
-      method: 'DELETE',
-      headers: {
-          'Authorization': `Brearer ${user.token}`
-        }
-    })
+    const response = await fetch(
+      `https://mernstack-react.herokuapp.com/api/workouts/` + workout._id,
+      {
+        method: "DELETE",
+        headers: {
+          Authorization: `Brearer ${user.token}`,
+        },
+      }
+    );
     
     const data = await response.json()
 
