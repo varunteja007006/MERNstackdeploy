@@ -11,7 +11,7 @@ export const useLogin = () => {
     setError(null);
 
     const response = await fetch(
-      "/api/user/login",
+      "https://mernstack-react.herokuapp.com/api/user/login",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
