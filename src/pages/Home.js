@@ -40,7 +40,7 @@ function Home() {
     <div>
       <Container>
         <Row>
-          <Col>
+          <Col xs={12} md={8}>
             <h4 className="ms-0 mt-2 mb-2">
               <i className="fa-solid fa-dumbbell"></i> Workouts{" "}
             </h4>
@@ -51,7 +51,7 @@ function Home() {
                 ))}
             </div>
           </Col>
-          <Col>
+          <Col xs={12} md={8}>
             <div className="text-center">
               <h4 className="mt-2 mb-2">Add Workouts</h4>
             </div>
