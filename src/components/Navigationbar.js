@@ -53,11 +53,7 @@ function Navigationbar() {
                   </Button>
                 )}
               </Nav.Link>
-              <Nav.Link>
-                <Button className="navbar-theme-btn" variant="secondary">
-                  Dark Mode
-                </Button>
-              </Nav.Link>
+   
             </Nav>
           </Navbar.Collapse>
         </Container>
