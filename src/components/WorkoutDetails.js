@@ -17,7 +17,7 @@ function WorkoutDetails({ workout }) {
     }
     
     const response = await fetch(
-      `/api/workouts/` + workout._id,
+      `https://mernstack-react.herokuapp.com/api/workouts/` + workout._id,
       {
         method: "DELETE",
         headers: {

@@ -27,7 +27,7 @@ function WorkoutForm() {
     const workout = { title, reps, load };
 
     const response = await fetch(
-      `/api/workouts`,
+      `https://mernstack-react.herokuapp.com/api/workouts`,
       {
         method: "POST",
         body: JSON.stringify(workout),
