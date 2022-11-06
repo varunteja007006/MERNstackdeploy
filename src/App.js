@@ -26,7 +26,7 @@ function App() {
               element={!user ? <Login /> : <Navigate to="/"></Navigate>}
             ></Route>
             <Route
-              path="https://master--gleaming-rabanadas-387c5c.netlify.app/signup"
+              path="/signup"
               element={!user ? <Signup /> : <Navigate to="/"></Navigate>}
             ></Route>
           </Routes>
